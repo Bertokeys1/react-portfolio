@@ -1,9 +1,9 @@
 import joinIn from "../assets/images/JoinIn.png";
 import passwordGen from "../assets/images/passwordGen.png";
 import noteApp from "../assets/images/noteTaker.png";
-import bookApp from "../assests/images/bookApp.png";
-import textApp from "../assests/images/textApp.png";
-import bitPage from "../assests/images/bitPage.png";
+import bookApp from "../assets/images/bookApp.png";
+import textApp from "../assets/images/textApp.png";
+import bitPage from "../assets/images/bitPage.png";
 
 export default function Projects() {
   return (
@@ -121,7 +121,7 @@ export default function Projects() {
               className="row col-2 mx-auto"
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/Bertokeys1/Password-generator"
+              href="https://github.com/Bertokeys1/text-editer"
             >
               github repo
             </a>
@@ -131,11 +131,11 @@ export default function Projects() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://book-search-engine2000.herokuapp.com/"
+              href="https://charliem61.github.io/bitPage/"
             >
               <img
                 className="img-fluid w-50 mx-auto"
-                src={noteApp}
+                src={bitPage}
                 alt="project 2 "
               />
             </a>
